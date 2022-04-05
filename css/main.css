@@ -1,3 +1,45 @@
-body {
-    background-color: purple;
+/* css reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;  */ /* See what this does? */
+    
+}
+
+
+/* style top nav-bar */ 
+.top-nav-container {
+    /* text color */
+    color: #fff; 
+    background-color: #5995DA; /* nav background color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* style menu-items */
+.nav-menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.podcast-link {
+    margin-left: auto;
+    
+}
+
+.Soon-link {
+    margin-left: 20px;
+}
+
+
+.frame {
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
 }
