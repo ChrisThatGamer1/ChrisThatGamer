@@ -2,15 +2,36 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box;  */ /* See what this does? */
-    
+    box-sizing: border-box;  /* See what this does? */
+    font-family: Arial;
+}
+
+body {
+  background-color: #F3E9DD;
 }
 
 
-/* style top nav-bar */ 
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.grid-1 {
+  padding-left: 400px;
+}
+
+/* style top nav-bar */
 .top-nav-container {
     /* text color */
-    color: #fff; 
+    color: #fff;
     background-color: #5995DA; /* nav background color */
     padding: 20px 0;
     display: flex;
@@ -28,7 +49,7 @@
 
 .podcast-link {
     margin-left: auto;
-    
+
 }
 
 .Soon-link {
