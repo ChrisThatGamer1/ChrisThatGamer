@@ -8,25 +8,12 @@
 
 body {
   background-color: #F3E9DD;
+  /* width: 100% !important; */
+
 }
 
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.grid-1 {
-  padding-left: 400px;
-}
 
 /* style top nav-bar */
 .top-nav-container {
@@ -54,13 +41,4 @@ body {
 
 .Soon-link {
     margin-left: 20px;
-}
-
-
-.frame {
-    height: 100px;
-    width: 50px;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
 }
