@@ -1,2 +1,2 @@
 # ChrisThatGamer
-A website, showing ChrisThatGame amateur call of duty career. 
+ChrisThatGamer's amateur Call of Duty career best hits, on his website.
