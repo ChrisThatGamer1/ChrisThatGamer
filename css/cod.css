@@ -32,6 +32,13 @@ body {
 }
 
 
+.main-title {
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    color: #7283b3;
+}
+
+
 
 
 /* The start of video gallery */
@@ -47,7 +54,7 @@ body {
     font-family: 'arial narrow', sans-serif;
     font-weight: 100;
     background: #222024;
-    color: #32a6da;
+    color: #7283b3;
     padding: 5px;
     margin-top: 4px;
 }
