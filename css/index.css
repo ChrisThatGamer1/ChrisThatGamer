@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&family=Water+Brush&display=swap');
+
+/* css reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* See what this does? */
+    font-family: Arial;
+}
+
+body {
+  background-color: #F3E9DD;
+  /* width: 100% !important; */
+
+}
+
+
+
+
+/* style top nav-bar */
+.top-nav-container {
+    /* text color */
+    color: #fff;
+    background-color: #5995DA; /* nav background color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* style menu-items */
+.nav-menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.podcast-link {
+    margin-left: auto;
+
+}
+
+.Soon-link {
+    margin-left: 20px;
+}
+
+/* main.html changes  */
+h2 {
+  text-align: center;
+  font-family: 'Tapestry', cursive;
+}
+
+.video1 {
+  background-color: whitesmoke;
+  padding: 15px;
+  margin: 0 2% 4% 0;
+}
+
+.topbar {
+  border-bottom: 1px solid;
+  margin: 0 0 8px 0;
+  position: relative;
+  width: 100%;
+
+}
