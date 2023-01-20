@@ -3,15 +3,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;  /* See what this does? */
-    font-family: Arial;
+
 }
 
 body {
   background-color: #F3E9DD;
   /* width: 100% !important; */
 
+<<<<<<< Updated upstream
+=======
+.column {
+  float: left;
+  width: 100%;
+  padding: 5px;
+>>>>>>> Stashed changes
 }
 
+
+
+<<<<<<< Updated upstream
+=======
+.grid-1 {
+  padding-left: 400px;
+  max-width:  100%;
+  height: auto;
+}
+>>>>>>> Stashed changes
 
 
 
@@ -42,3 +59,19 @@ body {
 .Soon-link {
     margin-left: 20px;
 }
+<<<<<<< Updated upstream
+=======
+
+
+/* iframe {
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+} */
+
+/* .row {
+    max-width: 200px;
+} */
+>>>>>>> Stashed changes
